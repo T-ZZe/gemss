@@ -1,0 +1,14 @@
+name: Gems
+version: 1.0.0
+main: fr.gems.GemsPlugin
+api-version: '1.21'
+description: Gems SMP (White, Red, Green, Pink, Yellow, Blue, Black, Purple, Orange, Gem Block)
+commands:
+  gem:
+    description: Gérer les gems
+    usage: /gem <give|list|reload>
+    permission: gems.admin
+permissions:
+  gems.admin:
+    description: Donne accès à /gem
+    default: op

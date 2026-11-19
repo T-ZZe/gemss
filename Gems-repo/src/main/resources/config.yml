@@ -1,0 +1,52 @@
+# Toutes les durées/cooldowns sont en secondes. /gem reload pour recharger.
+
+white:
+  intangible-duration: 15
+  cooldown: 60
+  # Multiplicateur des dégâts reçus pendant l'intangibilité (0.25 = -75%)
+  damage-multiplier: 0.25
+
+red:
+  nether-crit-multiplier: 1.5
+  tracking-duration: 30
+  tracking-cooldown: 45
+  strength-multiplier: 1.25
+  strength-duration: 20
+  strength-cooldown: 60
+
+green:
+  hunger-level: 3          # Hunger III
+  hunger-duration: 10
+  hunger-cooldown: 0       # 0 = aucun cooldown
+
+pink:
+  bonus-hearts: 2          # cœurs en plus
+  heal-cooldown: 60
+
+yellow:
+  food-cooldown: 30        # cooldown du passif saturation
+  mace-duration: 30
+  mace-cooldown: 60
+
+blue:
+  dash-distance: 10
+  dash-cooldown: 30
+  block-sprint: true       # dash interdit en sprintant
+
+black:
+  end-hearts: 15           # nombre total de cœurs dans l'End
+  skull-cooldown: 120
+
+purple:
+  teleport-range: 40
+  teleport-cooldown: 5
+  freecam-duration: 15
+  freecam-cooldown: 300
+  freecam-radius: 60
+
+block:
+  hearts: 20               # nombre total de cœurs
+  autocrit-duration: 15
+  autocrit-cooldown: 60
+  dash-distance: 10
+  dash-cooldown: 30
